@@ -1,0 +1,19 @@
+
+
+Tải và cài đặt wampserver để thiết lập môi trường chạy trang web.
+
+link tải wampserver: https://www.wampserver.com/en/
+
+link trang web: http://localhost:8080/websitebandienthoai/
+(điều chỉnh port cho phù hợp với máy, ở đây em dùng port 8080)
+
+- Database name: web_mvcphu
++ Đường dẫn đến file database: db/web_mvcphu.sql
++ Thiết lập kết nối cơ sở dữ liệu trong: config/config.php
+
+Tạo cơ sở dữ liệu tại: http://localhost:8080/phpmyadmin/
+(điều chỉnh port cho phù hợp với máy, ở đây em dùng port 8080)
+
+- Đường dẫn vào trang quản trị: /admin
+- Tài khoản admin : TK: hieu , MK : hieu
+- Tài khoản demo khách hàng : TK: hieu@gmail.com, MK: hieu
